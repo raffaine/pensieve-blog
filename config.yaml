@@ -19,51 +19,51 @@ params:
 
 # Theme configuration
 theme: "syna"
-paginate: 10
+#paginate: 10
 
 # Enable all URLs to be relative, and make them end with ".html"
 relativeURLs: true
-canonifyURLs: false
-uglyurls: true
+#canonifyURLs: false
+#uglyurls: true
 
 # Format for posts' permalinks
-permalinks:
-  post: /:year/:month/:day/:slug
+#permalinks:
+#  post: /:year/:month/:day/:slug
 
 # Disable taxonomies
-disableKinds:
-- taxonomy
-- taxonomyTerm
-- section
+#disableKinds:
+#- taxonomy
+#- taxonomyTerm
+#- section
 
 # RSS
-rssLimit: 10
-outputFormats:
-  RSS:
-    mediatype: "application/rss"
-    baseName: "feed"
+#rssLimit: 10
+#outputFormats:
+#  RSS:
+#    mediatype: "application/rss"
+#    baseName: "feed"
 
 # Google Analytics
 #GoogleAnalytics: "UA-72379106-1"
 
 # Syntax highlighting
-pygmentsCodeFences: true
-pygmentsStyle: "tango"
+#pygmentsCodeFences: true
+#pygmentsStyle: "tango"
 
 # Privacy
-privacy:
-  youtube:
-    privacyEnhanced: true
-  twitter:
-    enableDNT: true
+#privacy:
+#  youtube:
+#    privacyEnhanced: true
+#  twitter:
+#    enableDNT: true
 
 # Menu (Not implemented)
-menu:
-  main:
-    - name: "Home"
-      url: "/"
-    - name: "About"
-      url: "/about.html"
+#menu:
+#  main:
+#    - name: "Home"
+#      url: "/"
+#    - name: "About"
+#      url: "/about.html"
 
 # Markup converters
 markup:
